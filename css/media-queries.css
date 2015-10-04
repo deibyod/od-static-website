@@ -1,0 +1,385 @@
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+  /* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+    }
+
+  /* slider */
+  .carousel-caption h3 {
+    font-size: 45px;
+  }
+
+  /* home slider */
+  #slitSlider .carousel-caption h2, .footer h2 {
+      font-size: 60px;
+  }
+
+/* works */
+
+
+/* team */
+
+.member-thumb {
+  width: auto;
+}
+
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+  /* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+    }
+
+  /* home page slider */
+    #slitSlider .carousel-caption h2, .footer h2 {
+        font-size: 50px;
+    }
+
+    #nav-dots {
+        display: block;
+    }
+
+    #nav-arrows {
+        display: none;
+    }
+
+/* slider */
+
+.carousel-caption h2 {
+  font-size: 55px;
+}
+
+.carousel-caption h3 {
+  font-size: 36px;
+}
+
+/* services */
+
+.service-item {
+  margin: 0 auto 30px;
+  text-align: center;
+  width: 325px;
+}
+
+.service-icon {
+  float: none;
+  margin: 0 auto 15px;
+  text-align: center;
+  width: 50px;
+}
+
+.service-desc {
+  margin-left: 0;
+  position: relative;
+  top: 0;
+}
+
+/* memories */
+
+.work-item {
+  width: 33%;
+}
+
+/* works */
+
+.work-item {
+  width: 33%;
+}
+
+/* team */
+
+.member-thumb .overlay h5 {
+  margin: 25px 0;
+}
+
+.member-thumb {
+  margin: 0 auto;
+}
+
+  /* our skills */
+    .skill-chart {
+        margin: 0 auto 40px;
+        width: 300px;
+    }
+
+    .skill-chart {
+        margin: 0 auto 40px;
+        width: 90%;
+    }
+
+    .skill-chart > h3 {
+        margin: 15px 0;
+    }
+
+/* experience */
+
+#experience {
+background-position: center top !important;
+}
+.counters-item {
+  margin-bottom: 30px;
+}
+
+.counters-item i {
+  margin: 0 0 15px;
+}
+
+.counters-item strong {
+  font-size: 45px;
+}
+
+/* contact */
+
+.contact-form .name-email input {
+  margin-right: 0;
+  width: 100%;
+}
+
+.footer-social {
+  margin-top: 45px;
+}
+
+/* footer */
+
+.footer-single {
+  margin-bottom: 30px;
+}
+
+}
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+@media only screen and (max-width: 767px) {
+
+.sec-sub-title p {
+  font-size: 14px;
+}
+
+/* slider */
+.carousel-caption h2 {
+  font-size: 35px;
+}
+
+.carousel-caption h3 {
+  font-size: 22px;
+}
+
+.carousel-caption p {
+  font-size: 14px;
+}
+
+.social-links {
+  margin-top: 20%;
+}
+
+  /* parallax section */
+    .parallax-section {
+        background-position: center top !important;
+    }
+
+  /* h1 font size home slider */
+    h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption img {
+        width: 70%;
+    }
+
+    #slitSlider .carousel-caption h2, .footer h2 {
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+
+    #slitSlider .carousel-caption h3 {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    #slitSlider .carousel-caption a {
+        font-size: 14px;
+    }
+
+    #nav-dots {
+        display: block;
+    }
+
+    #nav-arrows {
+        display: none;
+    }
+
+/* services */
+
+.service-item {
+  margin: 0 auto 30px;
+  text-align: center;
+  width: 280px;
+}
+
+.service-icon {
+  float: none;
+  margin: 0 auto 15px;
+  text-align: center;
+  width: 50px;
+}
+
+.service-desc {
+  margin-left: 0;
+  position: relative;
+  top: 0;
+}
+
+/* memories */
+
+.memories-item {
+  left: 5% !important;
+  width: 90%;
+}
+
+/* works */
+
+.work-item {
+  left: 5% !important;
+  width: 90%;
+}
+
+/* team */
+
+.team-member {
+  margin-bottom: 30px;
+}
+
+.team-member:last-child {
+  margin-bottom: 0;
+}
+
+.member-thumb {
+  margin: 0 auto;
+}
+
+  /* our skills */
+    .skill-chart {
+        margin: 0 auto 40px;
+        width: 280px;
+    }
+
+/* experience */
+
+#experience {
+background-position: center top !important;
+}
+
+.counters-item {
+  margin-bottom: 30px;
+}
+
+/* contact */
+.contact-address {
+  margin-bottom: 30px;
+}
+
+.footer-social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.footer-social li {
+  display: inline-block;
+}
+
+.footer-social li a {
+  margin: 0 10px;
+}
+
+/* footer */
+
+.footer-single {
+  margin-bottom: 30px;
+}
+
+}
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  /* homepage slider */
+    #slitSlider .carousel-caption h2, .footer h2 {
+        font-size: 30px;
+    }
+
+    #slitSlider .carousel-caption h3 {
+        font-size: 25px;
+    }
+
+    #slitSlider .carousel-caption a {
+        font-size: 14px;
+    }
+
+    .carousel-caption img {
+        width: 50%;
+    }
+
+  /* skills */
+    .skill-chart {
+        margin: 0 auto 40px;
+        width: 300px;
+    }
+
+/* services */
+
+.service-item {
+  margin: 0 auto 30px;
+  text-align: center;
+  width: 325px;
+}
+
+.service-icon {
+  float: none;
+  margin: 0 auto 15px;
+  text-align: center;
+  width: 50px;
+}
+
+.service-desc {
+  margin-left: 0;
+  position: relative;
+  top: 0;
+}
+
+/* memories */
+
+.memories-item {
+  left: inherit !important;
+  width: 50%;
+}
+
+/* works */
+
+.work-item {
+  left: inherit !important;
+  width: 50%;
+}
+
+}

@@ -1,0 +1,49 @@
+#social ul li.active a {
+  background-color: #DE5E60; 
+}
+.sec-title h2 {
+  color: #DE5E60;
+}
+.service-icon {
+  border: 1px solid #DE5E60;
+  color: #DE5E60;
+}
+.memories-filter ul li a:hover,
+.memories-filter ul li a.active, 
+.work-filter ul li a:hover,
+.work-filter ul li a.active {
+  background-color: #DE5E60;
+  border-radius: 6px;
+  color: #fff;
+  padding: 5px 17px;
+}
+.team-member:hover h4 {
+  color: #DE5E60;
+}
+.footer {
+  border-top: 5px solid #DE5E60;
+}
+.overlay {
+  background-color: rgba(222, 94, 96, 0.9);
+}
+a:focus, a:hover {
+    color: #DE5E60;
+}
+#social ul li:hover a,
+#social ul li.active a {
+  background-color: #DE5E60;
+}
+.navbar-nav li a.current,
+.navbar-nav li a:focus,
+.navbar-nav li a:hover {
+  border-top: 2px solid #DE5E60;
+}
+.team-member .social-links li a {
+  background-color: #B75657;
+}
+.skillbar-title {
+  background:rgb(183, 86, 87) !important;
+}
+.skillbar-bar {
+  background:rgba(183, 86, 87, 0.7) !important;
+}
