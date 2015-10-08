@@ -6,7 +6,7 @@ var internationalization = {
         "#menu-memories": "Memorias",
         "#menu-time": "Tiempo",
         "#menu-experience": "Experiencia",
-        "#menu-discover": "Descubrir", 
+        "#menu-discover": "Descubrir",
         "#menu-contact": "Contáctame",
 
         "#slider-one": "Bienvenid@ a la Revolución Ágil",
@@ -22,17 +22,17 @@ var internationalization = {
         "#title-memories": "Participé",
         "#title-time": "He hecho, en años",
         "#title-experience": "He trabajado en",
-        "#title-discover": "Creo en", 
+        "#title-discover": "Creo en",
         "#title-contact": "Hablemos",
 
-        "#content-title-services-1": "Consultoría",
-        "#content-title-services-2": "Coaching",
-        "#content-title-services-3": "Entrenamiento",
+        "#content-title-services-1": "",
+        "#content-title-services-2": "",
+        "#content-title-services-3": "",
         "#content-title-services-4": "Innovación",
 
-        "#content-services-1": "Te ayudaré a identificar oportunidades para potenciar tu negocio y tu equipo.",
-        "#content-services-2": "Te ayudaré a encontrar tus propias transformaciones de ser y hacer. Descubre cómo empoderarte y empoderar a tu equipo.",
-        "#content-services-3": "Te mostraré cómo trascender la teoría y la práctica, buscando el espíritu de la agilidad.",
+        "#content-services-1": "",
+        "#content-services-2": "",
+        "#content-services-3": "",
         "#content-services-4": "Creemos juntos nuevas formas de generar cambios positivos para los equipos en las más diversas disciplinas.",
 
         "#content-skills": "En un mundo de conocimiento y experiencias infinitas",
@@ -56,7 +56,7 @@ var internationalization = {
         "#content-experience-filter-4": "Eventos",
 
         "#content-discover-intro": "Proyectos que valen la pena",
-        
+
         "#content-discover-message-1": "La web abierta es el camino",
         "#content-discover-1": "Internet es nuestro mundo, un mundo de todos.",
         "#content-discover-title-1": "Mozilla",
@@ -85,7 +85,7 @@ var internationalization = {
         "#menu-memories": "Memories",
         "#menu-time": "Time",
         "#menu-experience": 'Experience',
-        "#menu-discover": "Discover", 
+        "#menu-discover": "Discover",
         "#menu-contact": "Contact",
 
         "#slider-one": "Welcome To Agile Revolution",
@@ -101,7 +101,7 @@ var internationalization = {
         "#title-memories": "I was",
         "#title-time": "I've been doing, in years",
         "#title-experience": 'I have worked in',
-        "#title-discover": "I believe in", 
+        "#title-discover": "I believe in",
         "#title-contact": "Let's talk",
 
         "#content-title-services-1": "Consulting",
