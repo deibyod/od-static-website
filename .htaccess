@@ -19,23 +19,4 @@ ExpiresDefault "access plus 2 days"
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css text/javascript application/x-javascript application/javascript image/svg+xml
 </IfModule>
 
-<IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteCond %{HTTP_HOST} ^tecnologiasod.com$ [NC]
-	RewriteRule ^(.*)$ http://www.tecnologiasod.com/$1 [R=301,L] 
-
-	RewriteCond %{HTTP_HOST} ^www.tecnologiasod.com$ [NC]
-	RewriteCond %{REQUEST_URI} !^/od/
-	RewriteCond %{REQUEST_URI} !^/blog/
-	RewriteCond %{REQUEST_URI} !^/redfusalibre/
-	RewriteCond %{REQUEST_URI} !^/vade/
-	RewriteCond %{REQUEST_URI} !^/linadiaz/
-	RewriteCond %{REQUEST_URI} !^/huella/
-	RewriteCond %{REQUEST_URI} !^/deibyod/
-	RewriteCond %{REQUEST_URI} !^/flisol/
-	RewriteCond %{REQUEST_URI} !^/fusaflisol/
-	RewriteCond %{REQUEST_URI} !^/fusa.flisol.info/
-	RewriteRule ^(.*)$ /od/$1 [L]
-</IfModule>
-
 Options All -Indexes
