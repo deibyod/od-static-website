@@ -384,6 +384,11 @@ top: -8px;
   top: 5px;
 }
 
+.service-desc img {
+ max-width: 40%;
+ height: auto;
+}
+
 .service-desc h3 {
   color: #062033;
   font-size: 20px;

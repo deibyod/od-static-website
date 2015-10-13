@@ -25,15 +25,18 @@ var internationalization = {
         "#title-discover": "Creo en",
         "#title-contact": "Hablemos",
 
-        "#content-title-services-1": "",
-        "#content-title-services-2": "",
-        "#content-title-services-3": "",
-        "#content-title-services-4": "Innovación",
+        "#content-title-services-1": "Comunidad",
+        "#content-title-services-2": "Entrenamiento",
+        "#content-title-services-3": "Innovación",
+        "#content-title-services-4": "Scrum Master",
 
-        "#content-services-1": "",
-        "#content-services-2": "",
-        "#content-services-3": "",
-        "#content-services-4": "Creemos juntos nuevas formas de generar cambios positivos para los equipos en las más diversas disciplinas.",
+        "#content-services-1-1": "La comunidad ágil",
+        "#content-services-1-2": "me ha enseñado y me sigue enseñando generosamente. Cada oportunidad que tenga de aportar, estaré ahí.",
+        "#content-services-2": "Disfruto de co-crear entornos de aprendizaje para la agilidad: cursos, charlas, talleres. Cada espacio es una experiencia única.",
+        "#content-services-3": "Creemos juntos nuevas formas de generar cambios positivos para los equipos en las más diversas disciplinas. Gestemos grandes transformaciones.",
+        "#content-services-4-1": "Hago parte del nuevo",
+        "#content-services-4-2": "Ágil de",
+        "#content-services-4-3": "Chile. Actualmente Scrum Master para",
 
         "#content-skills": "En un mundo de conocimiento y experiencias infinitas",
 
@@ -76,7 +79,7 @@ var internationalization = {
 
         "#footer-message": "¿Estas list@?",
 
-        "#form-submit": "Enviar mensaje",
+        "#form-submit": "Enviar mensaje"
     },
     "en": {
         "#menu-home": "Home",
@@ -104,16 +107,19 @@ var internationalization = {
         "#title-discover": "I believe in",
         "#title-contact": "Let's talk",
 
-        "#content-title-services-1": "Consulting",
-        "#content-title-services-2": "Coaching",
-        "#content-title-services-3": "Training",
-        "#content-title-services-4": "Innovation",
+        "#content-title-services-1": "Community",
+        "#content-title-services-2": "Training",
+        "#content-title-services-3": "Innovation",
+        "#content-title-services-4": "Scrum Master",
 
-        "#content-services-1": "I'll help you identify opportunities to potentiate your business and your team.",
-        "#content-services-2": "I'll help you find your own transformations to be and do. Discover how to empower you and your team.",
-        "#content-services-3": "I'll show you how to transcend theory and practice, seeking the spirit of agility.",
-        "#content-services-4": "Create together new ways to generate positive changes for teams in countless disciplines.",
-
+        "#content-services-1-1": "The Agile Community",
+        "#content-services-1-2": "has taught and continues to teach me generously. Every opportunity to contribute, I'll be there.",
+        "#content-services-2": "I enjoy co-create learning environments for agility: courses, lectures, workshops. Each meeting is a unique experience.",
+        "#content-services-3": "Create together new ways to generate positive changes for the teams in the most diverse disciplines. We can to make major changes.",
+        "#content-services-4-1": "I am part of the new Agile",
+        "#content-services-4-2": "at",
+        "#content-services-4-3": "Chile. I am currently Scrum Master for",
+        
         "#content-skills": "In a world of infinite knowledge and memoriess",
 
         "#content-memories": "Building transformations",
@@ -155,6 +161,6 @@ var internationalization = {
 
         "#footer-message": "Are you ready?",
 
-        "#form-submit": "Send message",
-    },
-}
+        "#form-submit": "Send message"
+    }
+};
