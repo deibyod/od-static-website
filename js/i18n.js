@@ -34,7 +34,7 @@ var internationalization = {
         "#content-services-1-2": "me ha enseñado y me sigue enseñando generosamente. Cada oportunidad que tenga de aportar, estaré ahí.",
         "#content-services-2": "Disfruto de co-crear entornos de aprendizaje para la agilidad: cursos, charlas, talleres. Cada espacio es una experiencia única.",
         "#content-services-3": "Creemos juntos nuevas formas de generar cambios positivos para los equipos en las más diversas disciplinas. Gestemos grandes transformaciones.",
-        "#content-services-4-1": "Hago parte del nuevo",
+        "#content-services-4-1": "Aportando al nuevo",
         "#content-services-4-2": "Ágil de",
         "#content-services-4-3": "Chile. Actualmente Scrum Master para",
 
@@ -116,7 +116,7 @@ var internationalization = {
         "#content-services-1-2": "has taught and continues to teach me generously. Every opportunity to contribute, I'll be there.",
         "#content-services-2": "I enjoy co-create learning environments for agility: courses, lectures, workshops. Each meeting is a unique experience.",
         "#content-services-3": "Create together new ways to generate positive changes for the teams in the most diverse disciplines. We can to make major changes.",
-        "#content-services-4-1": "I am part of the new Agile",
+        "#content-services-4-1": "I support the new Agile",
         "#content-services-4-2": "at",
         "#content-services-4-3": "Chile. I am currently Scrum Master for",
         
