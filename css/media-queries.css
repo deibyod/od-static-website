@@ -21,13 +21,6 @@
 
 /* works */
 
-
-/* team */
-
-.member-thumb {
-  width: auto;
-}
-
 }
 
 
@@ -96,16 +89,6 @@
 
 .work-item {
   width: 33%;
-}
-
-/* team */
-
-.member-thumb .overlay h5 {
-  margin: 25px 0;
-}
-
-.member-thumb {
-  margin: 0 auto;
 }
 
   /* our skills */
@@ -259,20 +242,6 @@ background-position: center top !important;
 .work-item {
   left: 5% !important;
   width: 90%;
-}
-
-/* team */
-
-.team-member {
-  margin-bottom: 30px;
-}
-
-.team-member:last-child {
-  margin-bottom: 0;
-}
-
-.member-thumb {
-  margin: 0 auto;
 }
 
   /* our skills */

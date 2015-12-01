@@ -6,7 +6,7 @@ var internationalization = {
         "#menu-memories": "Memorias",
         "#menu-time": "Tiempo",
         "#menu-experience": "Experiencia",
-        "#menu-discover": "Descubrir",
+        "#menu-blog": "Blog",
         "#menu-contact": "Contáctame",
 
         "#slider-one": "Bienvenid@ a la Revolución Ágil",
@@ -22,7 +22,7 @@ var internationalization = {
         "#title-memories": "Participé",
         "#title-time": "He hecho, en años",
         "#title-experience": "He trabajado en",
-        "#title-discover": "Creo en",
+        "#title-blog": "Blog",
         "#title-contact": "Hablemos",
 
         "#content-title-services-1": "Comunidad",
@@ -58,22 +58,8 @@ var internationalization = {
         "#content-experience-filter-3": "Organizaciones/Comunidades",
         "#content-experience-filter-4": "Eventos",
 
-        "#content-discover-intro": "Proyectos que valen la pena",
-
-        "#content-discover-message-1": "La web abierta es el camino",
-        "#content-discover-1": "Internet es nuestro mundo, un mundo de todos.",
-        "#content-discover-title-1": "Mozilla",
-        "#content-discover-subtitle-1": "Apertura y oportunidad en la web",
-
-        "#content-discover-message-2": "Redes libres para todos",
-        "#content-discover-2": "Las cosas que son de todos, se construyen entre todos",
-        "#content-discover-title-2": "Redes Libres",
-        "#content-discover-subtitle-2": "Una nueva infraestructura de red",
-
-        "#content-discover-message-3": "De la diosa del sol y la sabiduría",
-        "#content-discover-3": "Las personas y los equipos son la clave",
-        "#content-discover-title-3": "LocXué",
-        "#content-discover-subtitle-3": "Lugar de conocimiento y emprendimiento para la transformación",
+        "#content-blog-intro": "",
+        "#content-blog-link": "Quizás quieras leer algo de lo que he escrito. ¡Click aquí!",
 
         "#content-contact-intro": "Hay mucho por decir",
 
@@ -88,7 +74,7 @@ var internationalization = {
         "#menu-memories": "Memories",
         "#menu-time": "Time",
         "#menu-experience": 'Experience',
-        "#menu-discover": "Discover",
+        "#menu-blog": "Blog",
         "#menu-contact": "Contact",
 
         "#slider-one": "Welcome To Agile Revolution",
@@ -104,7 +90,7 @@ var internationalization = {
         "#title-memories": "I was",
         "#title-time": "I've been doing, in years",
         "#title-experience": 'I have worked in',
-        "#title-discover": "I believe in",
+        "#title-blog": "Blog",
         "#title-contact": "Let's talk",
 
         "#content-title-services-1": "Community",
@@ -140,22 +126,8 @@ var internationalization = {
         "#content-experience-filter-3": "Organizations/Communities",
         "#content-experience-filter-4": "Events",
 
-        "#content-discover-intro": "Worthwhile projects",
-
-        "#content-discover-message-1": "Open web is way",
-        "#content-discover-1": "Internet is our world, the world of all.",
-        "#content-discover-title-1": "Mozilla",
-        "#content-discover-subtitle-1": "Opening the web",
-
-        "#content-discover-message-2": "Free networks for everybody",
-        "#content-discover-2": "The things that are of everybody, build it among everybody",
-        "#content-discover-title-2": "Redes Libres",
-        "#content-discover-subtitle-2": "A new network infrastructure",
-
-        "#content-discover-message-3": "Sun goddess and wisdom",
-        "#content-discover-3": "Persons and teams are key",
-        "#content-discover-title-3": "LocXué",
-        "#content-discover-subtitle-3": "Place of knowledge and entrepreneurship for transformation",
+        "#content-blog-intro": "",
+        "#content-blog-link": "Maybe you want to read anything that I wrote. Click here!",
 
         "#content-contact-intro": "There is very much to say",
 

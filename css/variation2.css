@@ -17,9 +17,6 @@
   color: #fff;
   padding: 5px 17px;
 }
-.team-member:hover h4 {
-  color: #0eb493;
-}
 .footer {
   border-top: 5px solid #0eb493;
 }
@@ -37,9 +34,6 @@ a:focus, a:hover {
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
   border-top: 2px solid #0eb493;
-}
-.team-member .social-links li a {
-  background-color: #258E79;
 }
 .skillbar-title {
   background:rgb(37, 142, 121) !important;
