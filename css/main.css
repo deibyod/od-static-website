@@ -949,6 +949,14 @@ label.error {
    Social Area
 ================================================== */
 
+#twitter {
+  background: rgb(241, 246, 251);
+}
+
+#twitter-widget-0 {
+  border-radius: 1em;
+}
+
 #social-area.page {
   background: #2F3238;
   padding: 20px 0;
