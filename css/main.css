@@ -757,6 +757,13 @@ top: -8px;
   text-transform: uppercase;
 }
 
+/*=========================================
+  Blog
+==========================================*/
+
+#blog a#content-blog-link {
+  white-space: unset;
+}
 
 /*=========================================
 	Contact Us
