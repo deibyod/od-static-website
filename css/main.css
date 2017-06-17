@@ -526,6 +526,10 @@ top: -8px;
 	color:rgba(0, 0, 0, 0.4);
 }
 
+#canvas-skills-container canvas {
+  width: 80%;
+  height: 100%;
+}
 
 /*=========================================
 	Memories

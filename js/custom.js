@@ -51,29 +51,7 @@ $(document).ready(function(){
 	$(window).resize(function(){'use strict',
 		$('#slitSlider, .sl-slider, .sl-content-wrapper').css('height',slideHeight);
 	});
-	
-	/* ========================================================================= */
-	/*	Skills Chart
-	/* ========================================================================= */
 
-	$(".chart").appear(function () {
-		$(".chart").easyPieChart({
-			easing: "easeOutBounce",
-			barColor: "#E4A63F",
-			size: "150",
-			lineWidth: 15,
-			animate: 2e3,
-			onStep: function (e, t, n) {
-				$(this.el).find(".percent").text(Math.round(n))
-			}
-		})
-	});
-
-	$('.skillbar').each(function(){
-		$(this).find('.skillbar-bar').animate({
-			width:$(this).attr('data-percent')
-		},6000);
-	});
 
 	/* ========================================================================= */
 	/*	Memories and Experience Filtering
@@ -276,3 +254,21 @@ $(document).ready(function () {
     $(".spanish").click(function() { console.log("Languaje to: spanish"); changeLanguage('es'); });
 });
 // ==========  END CHANGE LANGUAJE ========== //
+
+/* ========================================================================= */
+/*	Skills TagCanvas
+/* ========================================================================= */
+
+$(document).ready(function() {
+    if( ! $('#canvas-skills').tagcanvas({
+        textColour: '#ffffff',
+        outlineColour: '#2F6E92',
+        textHeight: 20,
+        outlineThickness : 0,
+        maxSpeed : 0.15,
+        depth : 0.5
+    })) {
+        // TagCanvas failed to load
+        $('#canvas-skills-container').hide();
+    }
+});
