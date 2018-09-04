@@ -13,5 +13,11 @@ before_script:
 - php composer.phar install
 
 pages:
+  script:
+    - npm run deploy
+    - mv build_production/ public/
+  artifacts:
+    paths:
+      - public
   only:
     - master
