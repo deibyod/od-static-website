@@ -23,10 +23,10 @@ $(document).ready(function(){
 		easing: 'easeInOutExpo',
 		updateHash: true,
 		beforeStart: function() {
-			console.log('begin scrolling');
+			//console.log('begin scrolling');
 		},
 		onComplete: function() {
-			console.log('done scrolling');
+			//console.log('done scrolling');
 		}
 	});
 	
@@ -250,8 +250,8 @@ function changeLanguage(target_lang) {
 
 $(document).ready(function () {
     changeLanguage("es");
-    $(".english").click(function() { console.log("Languaje to: english"); changeLanguage('en'); });
-    $(".spanish").click(function() { console.log("Languaje to: spanish"); changeLanguage('es'); });
+    $(".english").click(function() { /*console.log("Languaje to: english");*/ changeLanguage('en'); });
+    $(".spanish").click(function() { /*console.log("Languaje to: spanish");*/ changeLanguage('es'); });
 });
 // ==========  END CHANGE LANGUAJE ========== //
 
