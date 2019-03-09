@@ -1,3 +1,12 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^blog.deibyod.com[nc]
+RewriteRule ^(.*)$ http://www.blog.deibyod.com/$1 [r=301,nc]
+
+//301 Redirect Entire Directory
+RedirectMatch 301 /blog/(.*) //$1
+
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType image/jpg "access plus 1 week"
