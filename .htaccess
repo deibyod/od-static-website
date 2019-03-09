@@ -6,7 +6,8 @@ Redirect 301 /blog/ http://blog.deibyod.co/
 
 ErrorDocument 404 http://blog.deibyod.co/error
 
-
+#RewriteCond %{HTTP_HOST} ^deibyod.co [NC]
+#RewriteRule (.*) http://www.deibyod.co/$1 [R=301,L,QSA]
 </IfModule>
 
 <Files .htaccess>
