@@ -1,5 +1,15 @@
 <IfModule mod_rewrite.c>
-RedirectMatch 301 /blog/(.*) blog.deibyod.co/$1
+Options +FollowSymlinks
+RewriteEngine on
+
+Redirect 301 /blog/ http://blog.deibyod.co/
+ErrorDocument 404 http://blog.deibyod.co/
+
+RewriteCond %{HTTP_HOST} ^deibyod.co [NC]
+RewriteRule (.*) http://www.deibyod.co/$1 [R=301,L,QSA]
+
+RewriteCond %{HTTP_HOST} ^blog.deibyod.co [NC]
+RewriteRule (.*) http://www.blog.deibyod.co/$1 [R=301,L,QSA]
 </IfModule>
 
 <Files .htaccess>
