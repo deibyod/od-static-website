@@ -1,11 +1,11 @@
-//Rewrite to www
+<IfModule mod_rewrite.c>
 Options +FollowSymLinks
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^blog.deibyod.com[nc]
 RewriteRule ^(.*)$ http://www.blog.deibyod.com/$1 [r=301,nc]
 
-//301 Redirect Entire Directory
 RedirectMatch 301 /blog/(.*) //$1
+</IfModule>
 
 <IfModule mod_expires.c>
 ExpiresActive On
