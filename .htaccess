@@ -1,11 +1,11 @@
 <IfModule mod_rewrite.c>
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^blog.deibyod.com[nc]
-RewriteRule ^(.*)$ http://www.blog.deibyod.com/$1 [r=301,nc]
-
-RedirectMatch 301 /blog/(.*) //$1
+RedirectMatch 301 deibyod.co/blog/(.*) blog.deibyod.co//$1
 </IfModule>
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
 
 <IfModule mod_expires.c>
 ExpiresActive On
