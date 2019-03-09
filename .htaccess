@@ -5,8 +5,6 @@ RewriteBase /
 
 Redirect 301 /blog http://blog.deibyod.co/
 Redirect 301 /blog/ http://blog.deibyod.co/
-#RedirectMatch 301 /blog/(.*) http://blog.deibyod.co/$1
-#RedirectMatch permanent /blog/(.*) http://blog.deibyod.co/$1
 
 ErrorDocument 404 http://blog.deibyod.co/no-encontrado
 
