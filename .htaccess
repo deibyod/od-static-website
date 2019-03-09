@@ -5,10 +5,10 @@ RewriteBase /
 
 Redirect 301 /blog http://blog.deibyod.co/
 Redirect 301 /blog/ http://blog.deibyod.co/
-RedirectMatch 301 /blog/(.*) http://blog.deibyod.co/$1
-RedirectMatch permanent /blog/(.*) http://blog.deibyod.co/$1
+#RedirectMatch 301 /blog/(.*) http://blog.deibyod.co/$1
+#RedirectMatch permanent /blog/(.*) http://blog.deibyod.co/$1
 
-ErrorDocument 404 http://blog.deibyod.co/error
+ErrorDocument 404 http://blog.deibyod.co/no-encontrado
 
 RewriteCond %{HTTP_HOST} ^deibyod.co [NC]
 RewriteRule ^(.*)$ http://www.deibyod.co/$1 [R=301,L,QSA]
