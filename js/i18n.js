@@ -26,9 +26,7 @@ var internationalization = {
         "#title-contact": "Hablemos",
 
         "#content-title-services-1": "Comunidad",
-        "#content-title-services-2": "Entrenamiento",
-        "#content-title-services-3": "Innovación",
-        "#content-title-services-4": "Agile Coach & Trainer",
+        "#content-title-services-2": "Agile Coach & Facilitador",
 
         "#content-services-1-1": "Has parte de la gran comunidad ágil latinoamericana.",
         "#content-services-1-2": "",
@@ -94,7 +92,7 @@ var internationalization = {
         "#title-contact": "Let's talk",
 
         "#content-title-services-1": "Community",
-        "#content-title-services-2": "Agile Coach & Trainer",
+        "#content-title-services-2": "Agile Coach & Facilitator",
 
         "#content-services-1-1": "Know the great latinamerican agile community.",
         "#content-services-1-2": "",

@@ -135,6 +135,9 @@ body > section,
   top: 48%;
 }
 
+.white {
+  color: #ffffff;
+}
 
 /*=========================================
 	Header
@@ -406,8 +409,10 @@ top: -8px;
 }
 
 #team-skills img {
-  width: 100%;
-  max-height: 30px;
+  max-height: 50px;
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 1em;
 }
 
 .skill-chart > h4 {
