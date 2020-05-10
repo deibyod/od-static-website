@@ -17,7 +17,7 @@ var internationalization = {
         "#slider-three-2": "Son posibles",
         "#slider-three-3": "Empecemos ahora",
 
-        "#title-services": "Hago",
+        "#title-services": "Mi hogar profesional",
         "#title-skills": "Aprendo cada día más",
         "#title-memories": "Participé",
         "#title-time": "He hecho, en años",
@@ -30,15 +30,14 @@ var internationalization = {
         "#content-title-services-3": "Innovación",
         "#content-title-services-4": "Agile Coach & Trainer",
 
-        "#content-services-1-1": "La comunidad ágil",
-        "#content-services-1-2": "me ha enseñado y me sigue enseñando generosamente. Cada oportunidad que tenga de aportar, estaré ahí.",
-        "#content-services-2": "Disfruto de co-crear entornos de aprendizaje para la agilidad: cursos, charlas, talleres. Cada espacio es una experiencia única.",
-        "#content-services-3": "Creemos juntos nuevas formas de generar cambios positivos para los equipos en las más diversas disciplinas. Gestemos grandes transformaciones.",
-        "#content-services-4-1": "Hago parte del Agile CoE (Center of Excellence) de Everis Chile.",
-        "#content-services-4-2": "",
-        "#content-services-4-3": "",
+        "#content-services-1-1": "Has parte de la gran comunidad ágil latinoamericana.",
+        "#content-services-1-2": "",
+        "#content-services-2-1": "Hago parte del gran equipo de profesionales de Inspirit.",
+        "#content-services-2-2": "",
+        "#content-services-2-3": "",
 
-        "#content-skills": "En un mundo de conocimiento y experiencias infinitas",
+        "#content-skills-1": "En un mundo de conocimiento y experiencias infinitas",
+        "#content-skills-2": "Conoce y/o valida mis habilidades en LinkedIn.",
 
         "#content-memories": "Construyendo transformaciones",
         "#content-memories-filter-all": "Todo",
@@ -64,7 +63,7 @@ var internationalization = {
 
         "#content-contact-intro": "Hay mucho por decir",
 
-        "#footer-message": "¿Estas list@?",
+        "#footer-message": "Paso a paso...",
 
         "#form-submit": "Enviar mensaje"
     },
@@ -86,7 +85,7 @@ var internationalization = {
         "#slider-three-2": "Are possible",
         "#slider-three-3": "Let's do it now",
 
-        "#title-services": "I do",
+        "#title-services": "My professional home",
         "#title-skills": "I learn every day",
         "#title-memories": "I was",
         "#title-time": "I've been doing, in years",
@@ -95,19 +94,17 @@ var internationalization = {
         "#title-contact": "Let's talk",
 
         "#content-title-services-1": "Community",
-        "#content-title-services-2": "Training",
-        "#content-title-services-3": "Innovation",
-        "#content-title-services-4": "Agile Coach & Trainer",
+        "#content-title-services-2": "Agile Coach & Trainer",
 
-        "#content-services-1-1": "Agile Community",
-        "#content-services-1-2": "has taught and continues to teach me generously. Every opportunity to contribute, I'll be there.",
-        "#content-services-2": "I enjoy co-create learning environments for agility: courses, lectures, workshops. Each meeting is a unique experience.",
-        "#content-services-3": "Create together new ways to generate positive changes for the teams in the most diverse disciplines. We can to make major changes.",
-        "#content-services-4-1": "I am part of the Everis Agile CoE (Center of Excellence) in Chile.",
-        "#content-services-4-2": "",
-        "#content-services-4-3": "",
+        "#content-services-1-1": "Know the great latinamerican agile community.",
+        "#content-services-1-2": "",
+        "#content-services-2-1": "I am part of the Inspirit Team.",
+        "#content-services-2-2": "",
+        "#content-services-2-3": "",
         
-        "#content-skills": "In a world of infinite knowledge and memoriess",
+        "#content-skills": "",
+        "#content-skills-1": "In a world with infinite knowledge and experiences",
+        "#content-skills-2": "Know and/or Conoce y/o valida mis habilidades en LinkedIn.",
 
         "#content-memories": "Building transformations",
         "#content-memories-filter-all": "All",
@@ -133,7 +130,7 @@ var internationalization = {
 
         "#content-contact-intro": "There is very much to say",
 
-        "#footer-message": "Are you ready?",
+        "#footer-message": "Step by step...",
 
         "#form-submit": "Send message"
     }
