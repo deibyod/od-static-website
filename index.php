@@ -915,7 +915,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 		<!-- Google Map -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<?php getenv('KEY') ?>"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6X-QbhZmJ1IBFgZmWerQAfb7JYfzmTUw"></script>
 		<!-- jquery easing -->
         <script src="js/jquery.easing.min.js"></script>
 		<!-- jquery easing -->
